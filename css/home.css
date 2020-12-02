@@ -9,13 +9,13 @@
 @media screen and (min-width: 100px) and (max-width:768.9px) {
     
     footer{
-        position: fixed;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     background-color: #1D1D1D;
-     color: #FF9100;
-     text-align: center;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #1D1D1D;
+        color: #FF9100;
+        text-align: center;
     }
     
     .item-pcfooter{
@@ -41,6 +41,7 @@
 }
     
 /* Tabled */
+@media screen and (min-width: 750px) and (max-width: 1024px) {
 footer{
     position: fixed;
  left: 0;
@@ -73,6 +74,7 @@ footer{
     text-align: center;
     font-family: 'Roboto', sans-serif;
   font-weight: 500;
+}
 }
 
 /* Computer */

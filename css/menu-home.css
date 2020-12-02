@@ -4,9 +4,9 @@
 
 
     header{
-          background-color: #1D1D1D;
-          width: 100%;
-          height: 110px;
+        background-image: url("../images/home page foto.jpg");
+        height: 100vh;
+        background-position: center;
       }
   
       .item-navigatie{
@@ -166,7 +166,7 @@
   @media screen and (min-width: 750px) and (max-width: 1024px) {
   
       header{
-            background-color: #1D1D1D;
+            background-color: orange;
             width: 100%;
             height: 145px;
         }
