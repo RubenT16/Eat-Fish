@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="language" content="Eng"
+  <meta name="viewport" content="width=device-width, initial-scale-1">
+  <meta name="desciption" content="">
+  <meta name="author" content="Ruben Tieman">
+  <meta name="keywords" content="">
+<tittle></tittle>
+  <link rel="stylesheet" type="text/css" href="CSS/Style.css">
+  </head>
+<body>
+
+  <main>
+    <header>
+      <img src="IMG/Logo.png" alt="MBORijnland Logo">
+      <h1>Maak een account aan</h1>
+    </header>
+    <form action='#'>
+      <table>
+        <tr>
+          <td>Voornaam</td><td><input class="item-1" type="text" name="voornaam" placeholder="Vul hier je voornaam in" pattern="[A-Z]{1}[a-z]+" required>
+          </td>
+          <td>Email adres</td><td><input class="item-4" type="text" name="email" placeholder="Vul hier je email adres in!" pattern="[a-z0-9._%+-]+/.[a-z]{2,$" required>
+          </td>
+        </tr>
+        <tr>
+          <td>Achternaam</td><td><input class="item-2" type="text" name="achternaam" placeholder="Vul hier je achternaam in" pattern="[A-Z]{1}[a-z]+" required>
+          </td>
+          <td>Wachtwoord</td><td><input class="item-5" type="text" name="wachtwoord1" placeholder="Vul hier een wachtwoord in" pattern="[?=.*/d)(?=.*[a-z]).{12}" required>
+          </td>
+        </tr>
+        <tr>
+          <td>Leeftijd</td><td><input class="item-3" type="email" name="leeftijd" placeholder="Wat is je leeftijd?" pattern="[0-9]{2}" required>
+          </td>
+          <td>Leeftijd</td><td><input class="item-6" type="email" name="wachtwoord2" placeholder="Bevestig hier het wachtwoord" required>
+          </td>
+        </tr>
+<tr>
+
+<td>Geslacht</td>
+<td>
+  <select name="gender" id="gender">
+    <option value="keuze">Maak je keuze</option>
+    <option value="Man">Man</option>
+    <option value="Vrouw">Vrouw</option>
+    <option value="Neutraal">Gender Neutraal</option>
+  </select>
+</td>
+</tr>
+
+<table>
+
+<article class="nieuwsbrief">
+  <span style="padding-right: 5vw;">Nieuwsbrief</span>
+  <label for="ja">Ja</label>
+  <input type="radio" name="nieuwsbrief" value="ja">
+  <label for="nee">Nee</label>
+  <input type="radio" name="nieuwsbrief" value="nee">
+</article>
+
+<article class="voorwaarden">
+ <span>Akkoord met privacy voorwaarden</span>
+ <input type="checkbox" name="akkoord" value="akkoord">
+</article>
+
+
+
+</table>
+
+      </table>
+      <section>
+        <input class="item-button-reset" type="reset" value="reset">
+        <input class="item-button" type="button" value="verzenden">
+      </section>
+    </form>
+  </main>
+
+</body>
+</html>
